@@ -28,15 +28,18 @@ img {
 
 nav {
 
-    max-width: 80%;
+    max-width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: aqua;
+    flex-direction: column;
 
 }
 .header__menu-list{
-background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 
 }
 
